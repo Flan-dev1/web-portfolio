@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "../../assets/picture.webp";
+import github from "../../assets/github-big.png";
+import linkedin from "../../assets/linkedin.png";
 
 function Home() {
   const [showHeader, setShowHeader] = useState(false);
@@ -36,22 +38,26 @@ function Home() {
         <h2 className={`text-xl text-white my-2 mx-auto transition-opacity duration-500 ease-in ${showHeader ? "opacity-100" : "opacity-0"}`}>
           Front End Web Developer
         </h2>
-        <div className="flex justify-center space-x-4 gap-2 my-2">
+        <div className={`flex justify-center space-x-4 gap-2 my-2 transition-opacity duration-500 ${showButtons ? "opacity-100" : "opacity-0"}`}>
           <a
             href="#projects"
-            className={`border-2 border-blue-500 bg-blue-500 text-white py-3 px-6 rounded-full font-medium transition-all duration-500 relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] ${
-              showButtons ? "opacity-100" : "opacity-0"
-            }`}
+            className="border-2 border-blue-500 bg-blue-500 text-white py-3 px-6 rounded-full relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
           >
             View Projects
           </a>
           <a
             href="#contacts"
-            className={`border-2 border-blue-800 text-white py-3 px-6 rounded-full font-medium transition-all duration-500 relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] ${
-              showButtons ? "opacity-100" : "opacity-0"
-            }`}
+            className="border-2 border-blue-800 text-white py-3 px-6 rounded-full font-medium relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
           >
             Contact Me
+          </a>
+        </div>
+        <div className={`flex items-center justify-center gap-8 my-4 transition-opacity duration-500 ${showButtons ? "opacity-100" : "opacity-0"}`}>
+          <a href="https://github.com/Flan-dev1">
+            <img src={github} width={36} height={36} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/clarenceflaviano/">
+            <img src={linkedin} width={36} height={36} alt="" />
           </a>
         </div>
       </div>

@@ -2,10 +2,8 @@ import RevealOnScroll from "../RevealOnScroll";
 import SkillCard from "../SkillCard";
 
 function About() {
-  const skills = ["Being Cute", "Making Stuff", "Magic", "Power of Friendship", "Making Friends"];
-
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center py-20">
+    <section id="about" className="min-h-screen flex items-center justify-center pt-20">
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-5xl font-bold mb-2 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent text-center">About Me</h1>
@@ -43,7 +41,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="rounded-xl p-8 mb-8 border-white/10 border hover:-translate-y-1 transition-all duration-500">
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all duration-500">
             <h2 className="text-3xl font-bold text-white text-center mb-8"> 💼 Work Experience </h2>
             <div className="grid grid-cols-1 gap-6">
               <div className="border border-white/10 rounded-xl p-6 hover:-translate-y-1 translate-all duration-500">
