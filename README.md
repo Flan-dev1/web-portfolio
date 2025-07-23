@@ -2,7 +2,7 @@
 
 This is my personal developer portfolio built using **Vite**, **React**, **TypeScript**, and **Tailwind CSS**. It showcases my projects, skills, and background as a web developer.
 
-Live Demo: [https://{}.github.io/web-portfolio](https://{}.github.io/web-portfolio)
+Live Demo: [https://Flan-dev1.github.io/web-portfolio](https://Flan-dev1.github.io/web-portfolio)
 
 ## 🚀 Tech Stack
 
