@@ -15,12 +15,12 @@ function About() {
               <SkillCard skills={["C#", "C++", "JavaScript", "PHP", "Python", "Ruby", "Typescript"].sort()} header="💻 Programming Languages" />
               <SkillCard skills={["Bootstrap", "HTML/CSS", "jQuery", "SCSS", "Tailwind"]} header="🌐 Web Development" />
               <SkillCard skills={["Git", "Github"]} header="🌳 Version Control" />
-              <SkillCard skills={[".NET", "Node.js"]} header="🖥️ Backend & Server-Side" />
+              <SkillCard skills={[".NET", "Node.js", "Express"]} header="🖥️ Backend & Server-Side" />
               <SkillCard skills={["Canva", "Figma", "MS Visual Studio", "Vite", "Visual Studio Code", "Webflow"]} header="🛠️ Software & Tools" />
-              <SkillCard skills={["MSSQL", "MySQL"]} header="🗃️ Database Management" />
+              <SkillCard skills={["MongoDB", "MSSQL", "MySQL"]} header="🗃️ Database Management" />
               <SkillCard skills={["Agile", "Kanban"]} header="📈 Methodologies" />
               <SkillCard
-                skills={["CodeIgniter", "Discord.js", "Express", "GSAP", "Node.js", "React", "Ruby on Rails", "Splide.js"]}
+                skills={["CodeIgniter", "Discord.js", "GSAP", "Node.js", "React", "Ruby on Rails", "Splide.js"]}
                 header="📦 Framework & Libraries"
               />
             </div>
