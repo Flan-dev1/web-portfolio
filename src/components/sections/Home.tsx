@@ -36,7 +36,7 @@ function Home() {
         <img src={Image} alt="" className="rounded-full w-90 my-5" sizes="1056x1056" />
         <h1 className="text-5xl bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Hi, I'm Clarence Flaviano</h1>
         <h2 className={`text-xl text-white my-2 mx-auto transition-opacity duration-500 ease-in ${showHeader ? "opacity-100" : "opacity-0"}`}>
-          Front End Web Developer
+          Full-Stack Web Developer
         </h2>
         <div className={`flex justify-center space-x-4 gap-2 my-2 transition-opacity duration-500 ${showButtons ? "opacity-100" : "opacity-0"}`}>
           <a
